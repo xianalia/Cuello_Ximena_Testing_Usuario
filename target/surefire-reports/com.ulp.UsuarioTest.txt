@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: com.ulp.UsuarioTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.138 s <<< FAILURE! -- in com.ulp.UsuarioTest
+com.ulp.UsuarioTest.testDelay -- Time elapsed: 0.081 s <<< ERROR!
+java.util.concurrent.TimeoutException: testDelay() timed out after 30 milliseconds
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.ulp.UsuarioTest.testValidarUsr -- Time elapsed: 0.013 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Fallo ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.ulp.UsuarioTest.testValidarUsr(UsuarioTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

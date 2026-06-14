@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ulp.ParameterBatTest" time="0.128" tests="27" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\xiana\OneDrive\Documentos\ULP- DESARROLLO SOFTWARE\2° Año - 2026\Primer Cuatrimestre\Ingeniería de Software\plantilla-tp5-junit5-main\target\test-classes;C:\Users\xiana\OneDrive\Documentos\ULP- DESARROLLO SOFTWARE\2° Año - 2026\Primer Cuatrimestre\Ingeniería de Software\plantilla-tp5-junit5-main\target\classes;C:\Users\xiana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\xiana\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\xiana\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\xiana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\xiana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\xiana\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\xiana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\xiana\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.2\junit-vintage-engine-5.10.2.jar;C:\Users\xiana\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\xiana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\xiana\AppData\Local\Temp\surefire2152527846276446760\surefirebooter-20260612213719095_3.jar C:\Users\xiana\AppData\Local\Temp\surefire2152527846276446760 2026-06-12T21-37-18_945-jvmRun1 surefire-20260612213719095_1tmp surefire_0-20260612213719095_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\xiana\OneDrive\Documentos\ULP- DESARROLLO SOFTWARE\2° Año - 2026\Primer Cuatrimestre\Ingeniería de Software\plantilla-tp5-junit5-main\target\test-classes;C:\Users\xiana\OneDrive\Documentos\ULP- DESARROLLO SOFTWARE\2° Año - 2026\Primer Cuatrimestre\Ingeniería de Software\plantilla-tp5-junit5-main\target\classes;C:\Users\xiana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\xiana\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\xiana\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\xiana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\xiana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\xiana\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\xiana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\xiana\.m2\repository\org\junit\vintage\junit-vintage-engine\5.10.2\junit-vintage-engine-5.10.2.jar;C:\Users\xiana\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\xiana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\xiana"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\xiana\OneDrive\Documentos\ULP- DESARROLLO SOFTWARE\2° Año - 2026\Primer Cuatrimestre\Ingeniería de Software\plantilla-tp5-junit5-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\xiana\AppData\Local\Temp\surefire2152527846276446760\surefirebooter-20260612213719095_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.19+10"/>
+    <property name="user.name" value="xiana"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.19+10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-24\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\xiana\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\xiana\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.19"/>
+    <property name="user.dir" value="C:\Users\xiana\OneDrive\Documentos\ULP- DESARROLLO SOFTWARE\2° Año - 2026\Primer Cuatrimestre\Ingeniería de Software\plantilla-tp5-junit5-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\xiana\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\xiana\AppData\Local\Programs\Python\Python311\;C:\Users\xiana\AppData\Local\Microsoft\WindowsApps;C:\Users\xiana\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\xiana\AppData\Roaming\Amazon;C:\Users\xiana\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.19+10"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[1]" classname="com.ulp.ParameterBatTest" time="0.015">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 1 de 10] --
+Ejecutando la repetición: 1
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[2]" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 2 de 10] --
+Ejecutando la repetición: 2
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[3]" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 3 de 10] --
+Ejecutando la repetición: 3
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[4]" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 4 de 10] --
+Ejecutando la repetición: 4
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[5]" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 5 de 10] --
+Ejecutando la repetición: 5
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[6]" classname="com.ulp.ParameterBatTest" time="0.0">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 6 de 10] --
+Ejecutando la repetición: 6
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[7]" classname="com.ulp.ParameterBatTest" time="0.0">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 7 de 10] --
+Ejecutando la repetición: 7
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[8]" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 8 de 10] --
+Ejecutando la repetición: 8
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[9]" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 9 de 10] --
+Ejecutando la repetición: 9
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaConInformacion(RepetitionInfo)[10]" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaConInformacion [Ejecución 10 de 10] --
+Ejecutando la repetición: 10
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDescargarConTimeout" classname="com.ulp.ParameterBatTest" time="0.0">
+    <system-out><![CDATA[-- Prueba: testDescargarConTimeout [testDescargarConTimeout()] --
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDescargarParametrizado(int)[1]" classname="com.ulp.ParameterBatTest" time="0.015">
+    <system-out><![CDATA[-- Prueba: testDescargarParametrizado [[1] 1] --
+Descargando con metros: 1
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDescargarParametrizado(int)[2]" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: testDescargarParametrizado [[2] 3] --
+Descargando con metros: 3
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDescargarParametrizado(int)[3]" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: testDescargarParametrizado [[3] 5] --
+Descargando con metros: 5
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.0">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 1 of 10] --
+Aleatorio 75
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.004">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 2 of 10] --
+Aleatorio 59
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 3 of 10] --
+Aleatorio 28
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 4 of 10] --
+Aleatorio 19
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.0">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 5 of 10] --
+Aleatorio 91
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 6 of 10] --
+Aleatorio 46
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 7 of 10] --
+Aleatorio 13
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 8 of 10] --
+Aleatorio 4
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 9 of 10] --
+Aleatorio 41
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="pruebaRepetidaBasica" classname="com.ulp.ParameterBatTest" time="0.0">
+    <system-out><![CDATA[-- Prueba: pruebaRepetidaBasica [repetition 10 of 10] --
+Aleatorio 48
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testCargar" classname="com.ulp.ParameterBatTest" time="0.007">
+    <system-out><![CDATA[-- Prueba: testCargar [repetition 1 of 3] --
+cargando 3 veces...
+generó: esperado -2.1523731657733327 y real -2.1523731657733327
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testCargar" classname="com.ulp.ParameterBatTest" time="0.001">
+    <system-out><![CDATA[-- Prueba: testCargar [repetition 2 of 3] --
+cargando 3 veces...
+generó: esperado 2.294926342052034 y real 2.294926342052034
+FIN prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testCargar" classname="com.ulp.ParameterBatTest" time="0.002">
+    <system-out><![CDATA[-- Prueba: testCargar [repetition 3 of 3] --
+cargando 3 veces...
+generó: esperado 4.999155780028245 y real 4.999155780028245
+FIN prueba
+]]></system-out>
+  </testcase>
+</testsuite>
